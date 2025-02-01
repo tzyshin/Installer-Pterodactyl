@@ -13,7 +13,7 @@ display_welcome() {
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${BLUE}[+]                AUTO INSTALLER THEMA             [+]${NC}"
-  echo -e "${BLUE}[+]                  © RafatharCode                [+]${NC}"
+  echo -e "${BLUE}[+]                  © RapszioCode                [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${RED}[+] =============================================== [+]${NC}"
   echo -e ""
@@ -21,9 +21,9 @@ display_welcome() {
   echo -e "dilarang keras untuk dikasih gratis."
   echo -e ""
   echo -e "𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 :"
-  echo -e "@RafatharCode"
+  echo -e "@Reapszo"
   echo -e "𝗖𝗥𝗘𝗗𝗜𝗧𝗦 :"
-  echo -e "@RafatharCode"
+  echo -e "@Reapszo"
   sleep 4
   clear
 }
@@ -56,20 +56,20 @@ install_jq() {
 check_token() {
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]               LICENSY RAFATHAR CODE            [+]${NC}"
+  echo -e "${BLUE}[+]               LICENSY RAPSZIO CODE            [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" = "bandung" ]; then
+  if [ "$USER_TOKEN" = "rapsziocode" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
-    echo -e "${GREEN}Buy dulu Gih Ke RafatharCode X Amalia${NC}"
-    echo -e "${YELLOW}TELEGRAM : @RafatharCode${NC}"
-    echo -e "${YELLOW}WHATSAPP : 6285864743922${NC}"
+    echo -e "${GREEN}Buy dulu Gih Ke ReapszioCode${NC}"
+    echo -e "${YELLOW}TELEGRAM : @Reapszio${NC}"
+    echo -e "${YELLOW}WHATSAPP : 628778625347${NC}"
     echo -e "${YELLOW}HARGA TOKEN : 25K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
-    echo -e "${YELLOW}©RafatharCode${NC}"
+    echo -e "${YELLOW}©Reapszo${NC}"
     exit 1
   fi
   clear
@@ -452,11 +452,11 @@ while true; do
   echo -e "${BLUE}  ,ggggg        gggggggg.                                 ${NC}"
   echo -e "${BLUE} ,ggg'               'ggg.                                ${NC}"
   echo -e "${BLUE}',gg       ,ggg.      'ggg:                               ${NC}"
-  echo -e "${BLUE}'ggg      ,gg'''  .    ggg       Auto Installer RafatharCode Private   ${NC}"
+  echo -e "${BLUE}'ggg      ,gg'''  .    ggg       Auto Installer Reapszo Private   ${NC}"
   echo -e "${BLUE}gggg      gg     ,     ggg      ------------------------  ${NC}"
-  echo -e "${BLUE}ggg:     gg.     -   ,ggg       • Telegram : t.me/RafatharCode     ${NC}"
-  echo -e "${BLUE} ggg:     ggg._    _,ggg        • Creadit  : RAFATHARCODE ${NC}"
-  echo -e "${BLUE} ggg.    '.'''ggggggp           • Support by RafatharCode X Amalia  ${NC}"
+  echo -e "${BLUE}ggg:     gg.     -   ,ggg       • Telegram : t.me/Reapszo    ${NC}"
+  echo -e "${BLUE} ggg:     ggg._    _,ggg        • Creadit  : REAPSZOCODE999  ${NC}"
+  echo -e "${BLUE} ggg.    '.'''ggggggp           • Support by ReapzoBest ${NC}"
   echo -e "${BLUE}  'ggg    '-.__                                           ${NC}"
   echo -e "${BLUE}    ggg                                                   ${NC}"
   echo -e "${BLUE}      ggg                                                 ${NC}"
