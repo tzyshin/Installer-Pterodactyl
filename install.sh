@@ -13,7 +13,7 @@ display_welcome() {
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${BLUE}[+]                AUTO INSTALLER THEMA             [+]${NC}"
-  echo -e "${BLUE}[+]                  © RapszioCode                [+]${NC}"
+  echo -e "${BLUE}[+]                  © Rapixzy - Premium Installer                [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${RED}[+] =============================================== [+]${NC}"
   echo -e ""
@@ -21,9 +21,9 @@ display_welcome() {
   echo -e "dilarang keras untuk dikasih gratis."
   echo -e ""
   echo -e "𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 :"
-  echo -e "@Reapszo"
+  echo -e "@RapixOffc"
   echo -e "𝗖𝗥𝗘𝗗𝗜𝗧𝗦 :"
-  echo -e "@Reapszo"
+  echo -e "@Rapixzy"
   sleep 4
   clear
 }
@@ -56,20 +56,20 @@ install_jq() {
 check_token() {
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]               LICENSY RAPSZIO CODE            [+]${NC}"
+  echo -e "${BLUE}[+]               LICENSY RAPIXZY - INSTALLER            [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" = "rapsziocode" ]; then
+  if [ "$USER_TOKEN" = "rapixzy" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
-    echo -e "${GREEN}Buy dulu Gih Ke ReapszioCode${NC}"
-    echo -e "${YELLOW}TELEGRAM : @Reapszio${NC}"
-    echo -e "${YELLOW}WHATSAPP : 628778625347${NC}"
-    echo -e "${YELLOW}HARGA TOKEN : 25K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
-    echo -e "${YELLOW}©Reapszo${NC}"
+    echo -e "${GREEN}Buy dulu Gih Ke Rapixzy${NC}"
+    echo -e "${YELLOW}TELEGRAM : @Rapixzy${NC}"
+    echo -e "${YELLOW}WHATSAPP : 6287780625347${NC}"
+    echo -e "${YELLOW}HARGA TOKEN : 15K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
+    echo -e "${YELLOW}©Rapixzy - Include${NC}"
     exit 1
   fi
   clear
@@ -452,11 +452,11 @@ while true; do
   echo -e "${BLUE}  ,ggggg        gggggggg.                                 ${NC}"
   echo -e "${BLUE} ,ggg'               'ggg.                                ${NC}"
   echo -e "${BLUE}',gg       ,ggg.      'ggg:                               ${NC}"
-  echo -e "${BLUE}'ggg      ,gg'''  .    ggg       Auto Installer Reapszo Private   ${NC}"
+  echo -e "${BLUE}'ggg      ,gg'''  .    ggg       Auto Installer Rapixzy - Installer    ${NC}"
   echo -e "${BLUE}gggg      gg     ,     ggg      ------------------------  ${NC}"
-  echo -e "${BLUE}ggg:     gg.     -   ,ggg       • Telegram : t.me/Reapszo    ${NC}"
-  echo -e "${BLUE} ggg:     ggg._    _,ggg        • Creadit  : REAPSZOCODE999  ${NC}"
-  echo -e "${BLUE} ggg.    '.'''ggggggp           • Support by ReapzoBest ${NC}"
+  echo -e "${BLUE}ggg:     gg.     -   ,ggg       • Telegram : t.me/RapixOffc   ${NC}"
+  echo -e "${BLUE} ggg:     ggg._    _,ggg        • Creadit  : Rapixzy - Official ${NC}"
+  echo -e "${BLUE} ggg.    '.'''ggggggp           • Support by RapixzyInclude ${NC}"
   echo -e "${BLUE}  'ggg    '-.__                                           ${NC}"
   echo -e "${BLUE}    ggg                                                   ${NC}"
   echo -e "${BLUE}      ggg                                                 ${NC}"
