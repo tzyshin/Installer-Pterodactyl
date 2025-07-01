@@ -10,20 +10,20 @@ NC='\033[0m'
 # Display welcome message
 display_welcome() {
   echo -e ""
-  echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]                                                 [+]${NC}"
-  echo -e "${BLUE}[+]                AUTO INSTALLER THEMA             [+]${NC}"
-  echo -e "${BLUE}[+]                  © Rapixzy - Premium Installer                [+]${NC}"
-  echo -e "${BLUE}[+]                                                 [+]${NC}"
-  echo -e "${RED}[+] =============================================== [+]${NC}"
+  echo -e "${BLUE}[+]===============================================[+]${NC}"
+  echo -e "${BLUE}[+]                                               [+]${NC}"
+  echo -e "${BLUE}[+]                AUTO INSTALLER THEMA           [+]${NC}"
+  echo -e "${BLUE}[+]             © ShinTzy - Installer Premium     [+]${NC}"
+  echo -e "${BLUE}[+]                                               [+]${NC}"
+  echo -e "${BLUE}[+]===============================================[+]${NC}"
   echo -e ""
-  echo -e "script ini di buat untuk mempermudah penginstalasian thema pterodactyle,"
-  echo -e "dilarang keras untuk dikasih gratis."
+  echo -e "Token Bash/Script Ini Dibuat Untuk Mempermudah Penginstalan Thema Pterodactyl,"
+  echo -e "Dilarang Di Share Free"
   echo -e ""
   echo -e "𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 :"
-  echo -e "@RapixOffc"
+  echo -e "@lyliaxyz"
   echo -e "𝗖𝗥𝗘𝗗𝗜𝗧𝗦 :"
-  echo -e "@Rapixzy"
+  echo -e "@shinzx7"
   sleep 4
   clear
 }
@@ -55,21 +55,22 @@ install_jq() {
 #Check user token
 check_token() {
   echo -e "                                                       "
-  echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]               LICENSY RAPIXZY - INSTALLER            [+]${NC}"
-  echo -e "${BLUE}[+] =============================================== [+]${NC}"
+  echo -e "${BLUE}[+]===============================================[+]${NC}"
+  echo -e "${BLUE}[+]               LICENSY SHINTZY - INSTALLER     [+]${NC}"
+  echo -e "${BLUE}[+]===============================================[+]${NC}"
   echo -e "                                                       "
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" = "rapixzy" ]; then
+  if [ "$USER_TOKEN" = "lyliame0" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
-    echo -e "${GREEN}Buy dulu Gih Ke Rapixzy${NC}"
-    echo -e "${YELLOW}TELEGRAM : @Rapixzy${NC}"
-    echo -e "${YELLOW}WHATSAPP : 6287780625347${NC}"
-    echo -e "${YELLOW}HARGA TOKEN : 15K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
-    echo -e "${YELLOW}©Rapixzy - Include${NC}"
+    echo -e "${RED}Akses Ditolak,Token Salah${NC}"
+    echo -e "${GREEN}Buy Token Install Ke Shinzx7${NC}"
+    echo -e "${YELLOW}Telegram : @lyliaxyz${NC}"
+    echo -e "${YELLOW}WhatsApp : 6289630200229${NC}"
+    echo -e "${YELLOW}Pricinh : 10k Free Update${NC}"
+    echo -e "${YELLOW}© Shinzx7 - Include${NC}"
     exit 1
   fi
   clear
