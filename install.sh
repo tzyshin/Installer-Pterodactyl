@@ -31,21 +31,21 @@ display_welcome() {
 #Update and install jq
 install_jq() {
   echo -e "                                                       "
-  echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]             UPDATE & INSTALL JQ                 [+]${NC}"
-  echo -e "${BLUE}[+] =============================================== [+]${NC}"
+  echo -e "${BLUE}[+]===============================================[+]${NC}"
+  echo -e "${BLUE}[+]             UPDATE & INSTALL JQ               [+]${NC}"
+  echo -e "${BLUE}[+]===============================================[+]${NC}"
   echo -e "                                                       "
   sudo apt update && sudo apt install -y jq
   if [ $? -eq 0 ]; then
     echo -e "                                                       "
-    echo -e "${GREEN}[+] =============================================== [+]${NC}"
-    echo -e "${GREEN}[+]              INSTALL JQ BERHASIL                [+]${NC}"
-    echo -e "${GREEN}[+] =============================================== [+]${NC}"
+    echo -e "${GREEN}[+]===============================================[+]${NC}"
+    echo -e "${GREEN}[+]              INSTALL JQ BERHASIL               [+]${NC}"
+    echo -e "${GREEN}[+]===============================================[+]${NC}"
   else
     echo -e "                                                       "
-    echo -e "${RED}[+] =============================================== [+]${NC}"
-    echo -e "${RED}[+]              INSTALL JQ GAGAL                   [+]${NC}"
-    echo -e "${RED}[+] =============================================== [+]${NC}"
+    echo -e "${RED}[+]===============================================[+]${NC}"
+    echo -e "${RED}[+]              INSTALL JQ GAGAL                 [+]${NC}"
+    echo -e "${RED}[+]===============================================[+]${NC}"
     exit 1
   fi
   echo -e "                                                       "
@@ -56,21 +56,21 @@ install_jq() {
 check_token() {
   echo -e "                                                       "
   echo -e "${BLUE}[+]===============================================[+]${NC}"
-  echo -e "${BLUE}[+]               LICENSY SHINTZY - INSTALLER     [+]${NC}"
+  echo -e "${BLUE}[+]           LICENSY SHINTZY - INSTALLER         [+]${NC}"
   echo -e "${BLUE}[+]===============================================[+]${NC}"
   echo -e "                                                       "
-  echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
+  echo -e "${YELLOW}Masukkan Akses Token :${NC}"
   read -r USER_TOKEN
 
   if [ "$USER_TOKEN" = "lyliame0" ]; then
-    echo -e "${GREEN}AKSES BERHASIL${NC}}"
+    echo -e "${GREEN}Akses Diterima ✓${NC}}"
   else
     echo -e "${RED}Akses Ditolak,Token Salah${NC}"
     echo -e "${GREEN}Buy Token Install Ke Shinzx7${NC}"
     echo -e "${YELLOW}Telegram : @lyliaxyz${NC}"
     echo -e "${YELLOW}WhatsApp : 6289630200229${NC}"
-    echo -e "${YELLOW}Pricinh : 10k Free Update${NC}"
-    echo -e "${YELLOW}© Shinzx7 - Include${NC}"
+    echo -e "${YELLOW}Pricing : 8k${NC}"
+    echo -e "${YELLOW}© Shinzx7 - 2025${NC}"
     exit 1
   fi
   clear
